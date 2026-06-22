@@ -108,10 +108,6 @@ I am interested in **Deep Learning**, **Computer Vision**, **Multimodal AI**, an
 
 ---
 
-<div align="center">
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=victoria227878\&show_icons=true\&theme=tokyonight)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=victoria227878\&layout=compact\&theme=tokyonight)
 
 </div>
