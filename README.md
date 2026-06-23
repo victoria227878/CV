@@ -1,4 +1,3 @@
-# CV
 <div align="center">
 
 # 👋 Hi, I'm Jinhyo Kang
@@ -8,16 +7,17 @@
 ---
 
 I am an **undergraduate student in Electrical and Electronic Engineering** at **Sungkyunkwan University**.
-I am interested in **Deep Learning**, **Computer Vision**, **Multimodal AI**, and **Anomaly Detection**, with experience in research projects involving optimization, prediction models, and AI-based prototype development.
+My research interests include **Anomaly Detection**, **Multimodal AI**, **Computer Vision**, and **Optimization Algorithms**, with recent work focused on **unified multi-class industrial anomaly detection** using class-aware adaptive fusion.
 
 ---
 
 ## 🔬 Research Interests
 
-* Anomaly Detection
+* Industrial Anomaly Detection
 * Multimodal AI
-* Deep Learning
 * Computer Vision
+* Deep Learning
+* Few-Shot Adaptation
 * Optimization Algorithms
 
 ---
@@ -29,12 +29,55 @@ I am interested in **Deep Learning**, **Computer Vision**, **Multimodal AI**, an
 
 ---
 
+## 🚀 Capstone Design Project
+
+### **Class-Aware Adaptive Fusion Vision Inspection AI Model**
+
+**Korean Title:** 클래스 인지 기반 적응형 Fusion 비전 검사 AI 모델 구현
+
+This project implements a **class-aware adaptive fusion vision inspection AI model** for unified multi-class anomaly detection.
+Based on **Dinomaly**, a unified multi-class anomaly detector, the model introduces **class recognition capability** through two main components. First, **Class-wise Modulation Generator (CMG)** applies class-specific affine modulation to decoder blocks with only **+2.7% additional parameters**. Second, a **post-adaptive fusion module** combines low-level and high-level anomaly maps using class-specific weights.
+
+On the **Real-IAD** benchmark, the proposed method achieved **89.01 I-AUROC**, improving the reproduced baseline by **+2.56**. The improvement was especially concentrated in the most difficult classes, supporting the hypothesis that each product class requires a different level of visual semantic information for accurate anomaly detection.
+
+---
+
+## 📝 Papers & Manuscripts
+
+### Research Paper
+
+* **CAF-AD: Class-Aware Few-Shot Adaptation for Unified Multi-Class Anomaly Detection**
+
+  * Status: *To be submitted to ACCV*
+  * Topic: Class-aware few-shot adaptation for unified multi-class industrial anomaly detection
+
+---
+
+## 📚 Paper Review & Literature Study
+
+### Individual Paper Review
+
+* **MOEA/D-related Paper Review**
+
+  * Reviewed a paper on multi-objective evolutionary optimization based on decomposition.
+  * Studied how decomposition-based optimization can be applied to multi-objective problem solving.
+
+### Team Paper Analysis
+
+* **Towards Total Recall in Industrial Anomaly Detection**
+
+  * Conducted team-based paper analysis on industrial anomaly detection.
+  * Studied the PatchCore framework and its approach to improving anomaly detection performance through memory-bank-based feature retrieval.
+
+---
+
 ## 🧪 Research & Project Experience
 
 ### **Class-Aware Adaptive Fusion for Integrated Multi-Class Anomaly Detection**
 
-* Research topic related to integrated multi-class anomaly detection using class-aware adaptive fusion.
-* Connected to patent and software registration activities.
+* Conducted research on unified multi-class anomaly detection using class-aware adaptive fusion.
+* Designed a class-aware modulation strategy and adaptive anomaly map fusion structure.
+* Related to patent, software registration, and research paper preparation.
 
 ### **Implementation of Turtle Neck Self-Diagnosis Model and Prototype Production**
 
@@ -43,7 +86,7 @@ I am interested in **Deep Learning**, **Computer Vision**, **Multimodal AI**, an
 
 ### **A Study on the Replacement of Optimized Smoking Areas on Campus**
 
-* Applied the **NSGA-II optimization technique** to search for locations that minimize the damage score caused by smoking areas.
+* Applied the **NSGA-II optimization technique** to search for smoking area locations that minimize damage scores.
 
 ### **A Study on the Landslide Prevention Program**
 
@@ -57,6 +100,20 @@ I am interested in **Deep Learning**, **Computer Vision**, **Multimodal AI**, an
 ### **Counting Vertices in Gelfand-Zeitlin Polytopes of Type C**
 
 * Awarded **Grand Prize** at the **R&E Presentation**.
+
+---
+
+## 💡 Intellectual Property
+
+### Patent
+
+* **클래스 인지 적응형 융합을 이용한 통합 다중 클래스 이상 탐지 방법 및 장치** *(진행중)*
+
+### Software Registration
+
+* **클래스 인지 적응형 융합을 이용한 통합 다중 클래스 이상 탐지 방법 및 장치**
+
+  * Registration Number: *To be updated*
 
 ---
 
@@ -74,35 +131,15 @@ I am interested in **Deep Learning**, **Computer Vision**, **Multimodal AI**, an
 * AutoEncoder
 * Anomaly Detection
 * Multimodal Learning
+* Few-Shot Learning
 
 ### Optimization & Research
 
 * NSGA-II
+* MOEA/D
 * Prediction Modeling
 * Prototype Development
 * Research Documentation
-
----
-
-## 💡 Intellectual Property
-
-### Patent
-
-* **클래스 인지 적응형 융합을 이용한 통합 다중 클래스 이상 탐지 방법 및 장치** 
-* 논문 제목: CAF-AD: Class-Aware Few-Shot Adaptation for Unified Multi-Class Anomaly Detection (ACCV 제출 예정)
-
-### Program Registrations
-
-* **클래스 인지 적응형 융합을 이용한 통합 다중 클래스 이상 탐지 방법 및 장치**
-
-  * 등록번호: *(추후 업데이트 예정)*
-  
-## 💡 Project
-
-### Patent
-
-  * 프로젝트 제목 : 클래스 인지 기반 적응형 Fusion 비전 검사 AI 모델 구현
-프로젝트 요약: Dinomaly 기반 통합(다중 클래스) 이상 탐지기에 클래스 인식 능력을 부여하기 위해, 디코더 블록에 클래스별 아핀 변조를 가하는 CMG(파라미터 +2.7%)와 저수준·고수준 이상 맵을 클래스별 가중치로 결합하는 사후 적응형 융합을 추가하였다. Real-IAD에서 I-AUROC 89.01로 최고 성능을 달성하고 재현 베이스라인 대비 +2.56 향상되었으며, 개선폭은 가장 어려운 클래스에 집중되었다. 이를 통해 제품마다 필요한 시각적 의미 수준이 다르다는 가설을 입증하였다.
 
 ---
 
@@ -116,6 +153,10 @@ I am interested in **Deep Learning**, **Computer Vision**, **Multimodal AI**, an
 
 ---
 
+<div align="center">
 
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=victoria227878\&show_icons=true\&theme=tokyonight)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=victoria227878\&layout=compact\&theme=tokyonight)
 
 </div>
